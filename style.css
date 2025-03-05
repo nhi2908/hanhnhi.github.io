@@ -1,50 +1,65 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-.container {
-    text-align: center;
-}
-.profile-card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
-.avatar {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.title {
-    color: gray;
-    font-size: 18px;
-}
-.contact-info, .skills, .hobbies {
-    margin-top: 10px;
-    text-align: left;
-}
-.skills ul, .hobbies ul {
-    list-style-type: none;
-    padding: 0;
-}
-.btn {
-    background: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px;
-    margin-top: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    width: 100%;
-}
-.btn:hover {
-    background: #0056b3;
-}
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        .profile-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+        .avatar {
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .title {
+            color: gray;
+            font-size: 18px;
+        }
+        .contact-info, .skills, .hobbies {
+            margin-top: 15px;
+            text-align: left;
+        }
+        .skills ul, .hobbies ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .hobbies li {
+            background: #e3f2fd;
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .skills li::before, .hobbies li::before {
+            content: "✔";
+            color: #007BFF;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .btn {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
