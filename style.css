@@ -26,8 +26,13 @@ body {
     color: gray;
     font-size: 18px;
 }
-.contact-info {
+.contact-info, .skills, .hobbies {
     margin-top: 10px;
+    text-align: left;
+}
+.skills ul, .hobbies ul {
+    list-style-type: none;
+    padding: 0;
 }
 .btn {
     background: #007BFF;
