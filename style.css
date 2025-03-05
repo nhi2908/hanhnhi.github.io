@@ -22,6 +22,26 @@ h1 {
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 50%;
     margin-top: 20px;
+    border: 5px solid #ddd;
+}
+
+.info {
+    margin-top: 20px;
+    text-align: left;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.info h2 {
+    color: #444;
+    text-align: center;
+}
+
+.info p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
 }
